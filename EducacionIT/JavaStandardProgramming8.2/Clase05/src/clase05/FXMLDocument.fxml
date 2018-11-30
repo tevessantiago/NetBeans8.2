@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="368.0" prefWidth="375.0" stylesheets="@style.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="clase05.FXMLDocumentController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Nombre:" />
+      <TextField fx:id="txtNombre" layoutX="94.0" layoutY="10.0" />
+      <Button layoutX="286.0" layoutY="10.0" mnemonicParsing="false" onAction="#aceptar" text="Aceptar" />
+      <CheckBox fx:id="chkBici" layoutX="25.0" layoutY="73.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="73.0" text="Bici" />
+      <CheckBox fx:id="chkMoto" layoutX="25.0" layoutY="104.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="73.0" text="Moto" />
+      <CheckBox fx:id="chkAuto" layoutX="25.0" layoutY="134.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="73.0" text="Auto" />
+      <Button layoutX="285.0" layoutY="193.0" mnemonicParsing="false" onAction="#agregar" text="Agregar" />
+      <TextArea fx:id="txaTexto" editable="false" layoutX="19.0" layoutY="272.0" prefHeight="79.0" prefWidth="336.0" />
+      <RadioButton fx:id="radSoltero" layoutX="242.0" layoutY="73.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="78.0" text="Soltero" />
+      <RadioButton fx:id="radCasado" layoutX="242.0" layoutY="104.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="78.0" text="Casado" />
+      <RadioButton fx:id="radViudo" layoutX="243.0" layoutY="134.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="78.0" text="Viudo" />
+      <RadioButton fx:id="radDivorciado" layoutX="243.0" layoutY="161.0" mnemonicParsing="false" text="Divorciado" />
+      <Label layoutX="11.0" layoutY="198.0" text="Color" />
+      <ComboBox fx:id="cmbColores" layoutX="61.0" layoutY="194.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
