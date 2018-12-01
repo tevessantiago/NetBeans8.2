@@ -1,0 +1,27 @@
+Laboratorio #2 - Programación Orientada a Objetos
+Ejercicio #1
+
+Crear la clase abstracta Persona con las siguientes características:
+
+	nombre (privado y de la clase java.lang.String)
+	fechaDeNacimiento (privado y de la clase java.util.Date)
+	métodos de acceso (setters y getters) correspondientes
+
+Crear la clase Zoológico que tenga las siguientes características:
+
+	Atributos de clase públicos y constantes  CANTIDAD_ANIMALES = 25 y RACIONES_POR_ANIMAL = 5 del tipo entero
+	Atributo privado abierto del tipo boolean representando si el zoológico está abierto o cerrado
+	Método abrir() para abrir el zoológico
+	Método alimentarAnimales(int unaCantidadDeRaciones) à deberá instanciar a un Cuidador pasándole la cantidad de raciones en el constructor del mismo
+	Método cerrar() para cerrar el zoológico
+
+Crear la clase Cuidador que tenga las siguientes características:
+
+	Es el responsable de alimentar a los animales
+	Es una subclase de Persona
+	Posee un atributo entero privado cantidadDeRaciones que se setea cuando se construye el objeto
+	Método alimentarAnimales() que informará si la cantidad de raciones que le entregaron al cuidador fue suficiente para alimentar a todos los animales
+
+ Crear la clase Programa que la utilizaremos como punto de entrada principal
+
+	Deberá crear una instancia de Zoológico para abrir el zoológico, alimentar a los animales y cerrar el zoológico

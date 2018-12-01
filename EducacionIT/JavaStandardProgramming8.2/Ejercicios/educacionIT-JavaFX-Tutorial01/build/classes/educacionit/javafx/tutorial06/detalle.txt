@@ -1,0 +1,12 @@
+[Objetivo]
+Construir una aplicacion de la forma MDI (Multiple Document Interface)
+
+[Componentes utilizados]
+Stage, Scene, BorderPane, MenuBar, MenuItem, Menu, SeparatorMeenuItem, RadioMenuItem, CheckMenuItem
+
+[Conocimientos a adquirir]
+-Construir ventanas dentro de una ventana madre estilo MDI
+-Manejar un menu de barras
+-Cerrar una aplicacion grafica
+-Controlar que una ventana hija pueda abrirse solo una vez
+-Aprender a cerrar una ventana interna

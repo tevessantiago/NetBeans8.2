@@ -1,0 +1,9 @@
+[Objetivo]
+Mostrar el uso un menu de barras
+
+[Componentes utilizados]
+Stage, Scene, BorderPane, MenuBar, MenuItem, Menu, SeparatorMeenuItem, RadioMenuItem, CheckMenuItem
+
+[Conocimientos a adquirir]
+-Construir un menu de barras.
+-Programar la opcion "close" para que termine la ejecucion de la aplicacion

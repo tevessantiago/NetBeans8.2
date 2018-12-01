@@ -1,0 +1,11 @@
+[Objetivo]
+Construir una ventana que cuente la cantidad de clicks presionados sobre un boton
+
+[Componentes utilizados]
+Stage, Scene, AnchorPane, Button, Label, TextField
+
+[Conocimientos a adquirir]
+-Construccion de una ventana.
+-Manejo de eventos.
+
+

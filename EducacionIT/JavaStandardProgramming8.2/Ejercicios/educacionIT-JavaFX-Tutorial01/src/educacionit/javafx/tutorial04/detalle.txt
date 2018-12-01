@@ -1,0 +1,8 @@
+[Objetivo]
+Cargar valores desde un metodo de inicializacion en la ventana.
+
+[Componentes utilizados]
+Stage, Scene, AnchorPane, SplitPane, TableView, Label, Button.
+
+[Conocimientos a adquirir]
+-Utilizacion de un metodo de inicializacion para cargar datos

@@ -1,0 +1,47 @@
+CLASE #03: PROGRAMACIÓN ORIENTADA O OBJETOS  
+
+Proyecto Integrador Fase #1 – Detección de clases y Construcción Base del proyecto  
+
+Requisitos
+Para la construcción de la presente fase requiere:  
+
+       conocer que es una clase, un objeto, los constructores y los setters y getters
+       conocer los tipos de datos
+       conocer las palabras claves private y public
+	   
+Objetivos
+Los objetivos de la presente fase son:
+
+    construir el proyecto para comenzar a trabajar
+    construir las clases que formarán la base del proyecto
+	
+Especificación
+Armar la clase Vehículo con los siguientes atributos:
+
+      alto, de tipo int
+      ancho, de tipo int
+      largo, de tipo int
+
+Construir los setters y los getters de forma automática
+
+Armar un constructor que reciba como parámetros los valores correspondientes a alto, ancho y largo
+
+
+Armar la clase Persona con los siguientes atributos:
+
+     nombre, de tipo String
+     apellido, de tipo String
+     numeroDocumento, de tipo String
+
+Construir los setters y los getters de forma automática
+
+Armar un constructor que espere como parámetros los valores correspondientes a nombre, apellido y numeroDocumento
+
+
+Construir la clase Programa y dentro del método main realizar lo siguiente:
+
+        instanciar un vehiculo utilizando el constructor de tres parámetros
+        informar los valores de los atributos del vehiculo instanciado
+        instanciar una persona utilizando el constructor de tres parámetros
+        informar los valores de los atributos de la persona instanciada
+ 

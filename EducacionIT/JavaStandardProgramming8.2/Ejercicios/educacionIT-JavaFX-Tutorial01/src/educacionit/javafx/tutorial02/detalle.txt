@@ -1,0 +1,9 @@
+[Objetivo]
+Llenar cajas de texto a partir de un click sobre un boton
+
+[Componentes utilizados]
+Stage, Scene, Button, TextField, Checkbox
+[Conocimientos a adquirir]
+-Manejo de eventos
+
+

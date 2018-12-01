@@ -1,0 +1,12 @@
+[Objetivo]
+Mostrar el uso de un SplitPane.
+Mostrar el uso de un TableView y sus TableColumn.
+Programar el click de un boton para cerrar una ventana.
+
+[Componentes utilizados]
+Stage, Scene, AnchorPane, SplitPane, TableView, Label, Button.
+
+[Conocimientos a adquirir]
+-Uso de Split Pane.
+-Uso de TableView.
+-Manejo del metodo Patform.exit() para cerrar la aplicacion.

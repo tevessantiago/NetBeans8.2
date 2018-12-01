@@ -1,0 +1,69 @@
+CLASE #04: ASPECTOS AVANZADOS DE PROGRAMACIÓN ORIENTADA A OBJETOS  
+Proyecto Integrador Fase #2 – Profesionalización de la organización del proyecto 
+ 
+Requisitos
+Para la construcción de la presente fase requiere:   
+
+     conocer que es una clase abstracta
+     manejar el concepto de herencia
+     agrupar clases en paquetes
+     conocer el polimorfismo con redefinición (method override)
+	 
+Objetivos
+Los objetivos de la presente fase son:
+
+      mejorar el diseño de clases para maximizar su reutilización
+      organizar las clases según funcionalidad
+	  
+Especificación
+Para la construcción de la presente fase, tomar como base los fuentes de la fase anterior
+
+
+Armar los paquetes:
+
+     ar.com.educacionit.base.entidades (se utilizará para guardar clases reutilizables en distintos proyectos)
+     ar.com.educacionit.vehiculos.entidades (se utilizará para guardar clases propias del presente proyecto)
+     ar.com.educacionit.vehiculos.pruebas (se utilizará para armar clases para testear la aplicacion)
+
+Ubicar las clases Vehículo y Persona en el paquete ar.com.educacionit.base.entidades
+
+Transformar las clases Vehículo y Persona a clases abstractas
+
+
+Construir la clase Auto con las siguientes características:
+
+      deberá estar ubicado en el paquete ar.com.educacionit.vehiculos.entidades
+      deberá heredar de la clase Vehiculo
+      atributos marca de tipo String, modelo de tipo String, color de tipo String
+      constructor que soporte como parámetros la marca, modelo, color, largo, ancho y altura
+      redefinir el método toString() para que retorne una cadena de caracteres con la marca, modelo, color, largo, ancho y altura
+
+Construir la clase Comprador con las siguientes características:
+
+     deberá estar ubicado en el paquete ar.com.educacionit.vehiculos.entidades
+     deberá heredar de la clase Persona
+     atributo presupuesto de tipo double
+     setters y getters creados de forma automatica
+     constructor que soporte como parámetros el nombre, apellido, número de documento y presupuesto
+     redefinir el método toString() para que retorne una cadena de caracteres con el nombre, apellido, numeroDocumento y presupuesto
+ 
+
+Construir la clase Vendedor con las siguientes características:
+
+     deberá estar ubicado en el paquete ar.com.educacionit.vehiculos.entidades
+     deberá heredar de la clase Persona
+     atributo 1 de tipo int
+     setters y getters creados de forma automatica
+     constructor que soporte como parámetros el nombre, apellido, número de documento y la cantidad de autos vendidos
+     redefinir el método toString() para que retorne una cadena de caracteres con el nombre, apellido, número de documento y    la cantidad de autos vendidos
+
+Abrir la clase Programa creada en la fase anterior y ubicarla dentro del paquete ar.com.educacionit.vehiculos.pruebas. Dentro del método main realizar lo siguiente:
+
+
+       Borrar (o comentar) el contenido existente dentro del método que pertenece a la fase anterior
+       Instanciar un auto utilizando el constructor completo
+       Informar el auto utilizando el metodo toString()
+       Instanciar un comprador utilizando el constructor completo
+       Informar el comprador utilizando el metodo toString()
+       Instanciar un vendedor utilizando el constructor completo
+       Informar el vendedor utilizando el metodo toString()
