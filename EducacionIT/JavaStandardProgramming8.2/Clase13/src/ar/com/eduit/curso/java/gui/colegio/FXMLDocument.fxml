@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="641.0" prefWidth="436.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ar.com.eduit.curso.java.gui.colegio.FXMLDocumentController">
+   <children>
+      <TabPane layoutX="54.0" layoutY="49.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Alumnos">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="25.0" prefHeight="17.0" prefWidth="81.0" text="Nombre:" />
+                        <TextField fx:id="txtNombre" layoutX="107.0" layoutY="21.0" prefHeight="25.0" prefWidth="205.0" />
+                        <TextField fx:id="txtApellido" layoutX="107.0" layoutY="69.0" prefHeight="25.0" prefWidth="205.0" />
+                        <Label layoutX="14.0" layoutY="73.0" prefHeight="17.0" prefWidth="81.0" text="Apellido:" />
+                        <TextField fx:id="txtEdad" layoutX="106.0" layoutY="113.0" prefHeight="25.0" prefWidth="205.0" />
+                        <Label layoutX="14.0" layoutY="117.0" prefHeight="17.0" prefWidth="81.0" text="Edad:" />
+                        <Label layoutX="14.0" layoutY="165.0" prefHeight="17.0" prefWidth="81.0" text="Curso:" />
+                        <ComboBox fx:id="cmbCurso" layoutX="106.0" layoutY="161.0" prefHeight="25.0" prefWidth="209.0" />
+                        <Label fx:id="lblInfoAlumno" layoutX="14.0" layoutY="226.0" prefHeight="17.0" prefWidth="305.0" />
+                        <Button layoutX="107.0" layoutY="263.0" mnemonicParsing="false" onAction="#altaAlumno" prefHeight="27.0" prefWidth="204.0" text="Ingresar Alumno" />
+                        <TableView fx:id="tblAlumnos" layoutX="15.0" layoutY="382.0" prefHeight="200.0" prefWidth="410.0">
+                          <columns>
+                            <TableColumn prefWidth="75.0" text="C1" />
+                            <TableColumn prefWidth="75.0" text="C2" />
+                          </columns>
+                        </TableView>
+                        <Label layoutX="14.0" layoutY="347.0" prefHeight="17.0" prefWidth="96.0" text="Buscar Apellido:" />
+                        <TextField fx:id="txtBuscarApe" layoutX="110.0" layoutY="343.0" onKeyReleased="#buscarApellido" />
+                        <Button layoutX="311.0" layoutY="342.0" mnemonicParsing="false" onAction="#eliminarAlumno" text="Eliminar Alumno" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Cursos">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
