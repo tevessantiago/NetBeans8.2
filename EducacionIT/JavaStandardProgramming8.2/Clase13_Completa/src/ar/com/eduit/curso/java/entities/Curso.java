@@ -35,7 +35,7 @@ public class Curso {
     @Override
     public String toString() {
         //return "Curso[" + "id=" + id + ", titulo=" + titulo + ", profesor=" + profesor + ", dia=" + dia + ", turno=" + turno + ']';
-        return titulo + ", " + profesor + ", " + dia + ", " + turno + ", " +  id;
+        return titulo + ", " + profesor + ", " + dia + ", " + turno;
     }
     
     public int getId() {
